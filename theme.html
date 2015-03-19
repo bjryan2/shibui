@@ -13,7 +13,7 @@
 
   <link rel="alternate" type="application/rss+xml" href="{RSS}">
 
-  <!-- Font includes -->
+    <!-- Font includes -->
   <link href='http://fonts.googleapis.com/css?family=Oswald:100,400,300,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 
@@ -38,11 +38,11 @@
       <meta name="if:Archive Enabled" content="1"/>
       <meta name="if:Nav Enabled" content="1"/>
       <meta name="if:Infinite Scroll" content="1"/>
-
-      {block:IfInfiniteScroll}
-      <script type="text/javascript" src="http://codysherman.tumblr.com/tools/infinite-scrolling/code"></script>
-      {/block:IfInfiniteScroll}
-
+    
+    {block:IfInfiniteScroll}
+  <script type="text/javascript" src="http://codysherman.tumblr.com/tools/infinite-scrolling/code"></script>
+  {/block:IfInfiniteScroll}
+  
       <style type="text/css">
 
         html {
@@ -59,7 +59,7 @@
         }
 
         h1, h2, h3, h4, h5 {
-          font-family: 'Oswald', sans-serif;
+        font-family: 'Oswald', sans-serif;
           font-weight: 400;
         }
 
@@ -130,12 +130,12 @@
           font-weight: 100;
           letter-spacing: 10px;
         }
-
+        
         @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-          .title {
-            font-size: 2rem;
-          }
-        }
+    .title {
+        font-size: 2rem;
+    }
+}
 
 
         .title a {
@@ -290,24 +290,13 @@
       .datenotes {
        float: left;
      }
-
-     .like-button {
-       display: inline-block;
-       float: right;
-       padding: 3px 0 0 10px;
-     }
-
-     .reblog-button {
-       display: inline-block;
-       float: right;
-       padding: 3px 0 0 0;
-     }
-
-     #install-btn {
-       position:fixed;
-       bottom: 0px;
-       right:6px
-     }
+    
+    .photoCaption *{
+        text-align: left;
+        border: none;
+        margin-left: 0;
+        padding-left: 0;
+    }
 
      .animated {
       -webkit-animation-fill-mode: both;
